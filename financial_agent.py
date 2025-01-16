@@ -9,9 +9,6 @@ load_dotenv()
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-
-# client = openai.Client()
-
 # web search agent
 web_search_agent = Agent(
     name = "web search agent",
